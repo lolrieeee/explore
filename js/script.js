@@ -93,5 +93,5 @@ $('window').ready(function(){
   setTimeout(function() {
   document.getElementById('pageload').className += " load-done";
   document.body.style.overflow = "scroll";
-  },5000);
+},3000);
 });
