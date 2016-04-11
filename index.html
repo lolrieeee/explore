@@ -9,21 +9,25 @@
   <link rel="stylesheet" href="css/style.css" media="screen"charset="utf-8">
 </head>
 <body>
-
+<div id="pageload" class="load">
+  <div class="load-container">
+    <img src="images/ring.gif" class="load-ring">
+  </div>
+</div>
+<!--
 <audio autoplay id="audio">
   <source src="images/yiruma.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
-</audio>
+</audio>-->
 
-<nav class="navi">
+<nav id="navi-spy" class="navi">
     <i class="fa fa-arrows navi-expand"></i>
   <ul>
-    <li class="nav-list-1"><a href="#">Larry Bui</a></li>
-    <li class="nav-list-2"><a href="#"><i class="fa fa-space-shuttle"></i> an Explorer</a></li>
-    <li class="nav-list-3"><a href="#"><i class="fa fa-moon-o"></i> a Dreamer</a></li>
-    <li class="nav-list-4"><a href="#"><i class="fa fa-desktop"></i> a Techonologist</a></li>
-    <li class="nav-list-5"><a href="#"><i class="fa fa-certificate"></i> a Humorist</a></li>
-    <li class="nav-list-6"><a href="#"><i class="fa fa-gamepad"></i> a Nerd</a></li>
+    <li class="nav-list-2"><a href="#explorer"><i class="fa fa-space-shuttle"></i> an Explorer</a></li>
+    <li class="nav-list-3"><a href="#dreamer"><i class="fa fa-moon-o"></i> a Dreamer</a></li>
+    <li class="nav-list-4"><a href="#technologist"><i class="fa fa-desktop"></i> a Techonologist</a></li>
+    <li class="nav-list-5"><a href="#humorist"><i class="fa fa-certificate"></i> a Humorist</a></li>
+    <li class="nav-list-6"><a href="#nerd"><i class="fa fa-gamepad"></i> a Nerd</a></li>
   </ul>
 </nav>
 
@@ -33,42 +37,65 @@
 </div>
 
 <div id="unmute-container" class="audio-off audio-hide">
-<i id="unmute" class="fa fa-volume-off"></i>
-<span class="song-title">Yiruma - River Flows in You</span>
+  <i id="unmute" class="fa fa-volume-off"></i>
+  <span class="song-title">Yiruma - River Flows in You</span>
 </div>
 
-<div class="darken"></div>
+<div id="night-container" class="night-on">
+  <i id="night" class="fa fa-moon-o"></i>
+  <span class="daytime">Night View</span>
+</div>
 
-<h5 class="project-credit">A visual project by Larry Bui</h5>
+<div id="day-container" class="night-off day-hide">
+  <i id="day" class="fa fa-circle-o"></i>
+  <span class="daytime">Day View</span>
+</div>
+
+<div id="darker" class="darken"></div>
+
+<h5 id="credit" class="project-credit">A visual project by Larry Bui</h5>
+<div id="instructions" class="container text-center instruction-1">
+  Scroll down
+  <br><i class="fa fa-caret-down"></i>
+</div>
+
 <h1 class="statement">I am </h1>
 
-<div class="hero">
+<div id="larry" class="hero">
   <div class="container">
     <h1 class="statement-tail">Larry Bui.</h1>
-    <p class="more-info"></p>
-  </div>
-  <div class="container text-center instruction-1">Scroll down<br><i class="fa fa-caret-down"></i>
+    <p class="more-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   </div>
   <i class="fa fa-compass location"></i>
   <span class="location-expand">Solar System, Universe</span>
 </div>
 
-<div class="wrap-1">
-  <div class="container"><h1 class="statement-tail">an Explorer.</h1></div>
+<div id="dreamer" class="wrap-1">
+  <div class="container"><h1 class="statement-tail">a Dreamer.</h1>
+    <p class="more-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  </div>
   <i class="fa fa-compass location"></i>
   <span class="location-expand">Somewhere, Not Here</span>
 </div>
 
-<div class="wrap-2">
-  <div class="container"><h1 class="statement-tail">a Dreamer.</h1></div>
+<div id="explorer" class="wrap-2">
+  <div class="container"><h1 class="statement-tail">an Explorer.</h1>
+  <p class="more-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  </div>
   <i class="fa fa-compass location"></i>
   <span class="location-expand">Forest, Somewhere</span>
 </div>
 
-<div class="wrap-3">
-  <div class="container"><h1 class="statement-tail">a Techonologist.</h1></div>
+<div id="technologist" class="wrap-3">
+  <div class="container"><h1 class="statement-tail">a Techonologist.</h1>
+  <p class="more-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  </div>
   <i class="fa fa-compass location"></i>
   <span class="location-expand">Bitwise, Fresno, CA</span>
+</div>
+
+<div id="coor">
+
 </div>
 
 
